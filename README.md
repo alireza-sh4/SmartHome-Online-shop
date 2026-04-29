@@ -4,7 +4,7 @@ Welcome to **SmartHome Shop**, a fully functional, responsive e-commerce web app
 
 This project was built from scratch using core web technologies to demonstrate secure authentication, session-based shopping carts, database transactions, and dynamic filtering.
 
-## 🚀 Features
+## Features
 
 * **User Authentication:** Secure registration and login with `bcrypt` password hashing and real-time password strength validation.
 * **Shopping Cart & Checkout:** A session-based cart that persists items until checkout. The checkout process uses database transactions to guarantee that order creation and stock reduction happen simultaneously and safely.
@@ -12,13 +12,13 @@ This project was built from scratch using core web technologies to demonstrate s
 * **Admin Dashboard:** A dedicated backend for administrators to manage products, view customer orders, manage users, and review the activity log.
 * **Responsive Design:** Built with pure CSS Flexbox and Grid. It looks great on desktop, tablet, and mobile!
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Frontend:** HTML5, Vanilla JavaScript, Vanilla CSS
 * **Backend:** PHP 8+ (Vanilla)
 * **Database:** MySQL / MariaDB (using PDO for secure prepared statements)
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 If you want to run this project locally, follow these steps:
 
@@ -48,12 +48,12 @@ If you want to run this project locally, follow these steps:
 5. **Start Shopping!**
    Navigate to `http://localhost/WebProject/` to view the shop!
 
-## 🔐 Admin Access
+## Admin Access
 
 If you used the `install.php` script to set up your database, an admin account was created for you by default:
 * **Email:** admin@smarthome.test (or simply use the username `admin` to login)
 * **Password:** Admin123
 
-## 📝 License
+## License
 
 This project is open-source and available under the MIT License. Feel free to fork it, modify it, or use it for your own university submissions!
