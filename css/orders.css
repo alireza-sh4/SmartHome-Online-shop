@@ -1,0 +1,29 @@
+/* Orders Page Styles (orders.php) */
+/* Order cards, status badges */
+
+.orders-list { margin: 30px 0; }
+
+.order-card {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: var(--primary-dark);
+    color: #fff;
+    font-size: .9rem;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.order-items { padding: 16px 20px; }
+.order-items table { width: 100%; border-collapse: collapse; }
+.order-items td { padding: 8px 0; border-bottom: 1px solid var(--border); font-size: .9rem; }
+.order-items tr:last-child td { border-bottom: none; }

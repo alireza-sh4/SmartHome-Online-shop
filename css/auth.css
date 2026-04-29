@@ -1,0 +1,53 @@
+/* Auth Page Styles (login.php, register.php, profile.php) */
+/* Form pages, password strength meter, char counter */
+
+.form-page {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+/* Profile */
+.profile-page {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Character Counter */
+.char-count {
+    display: block;
+    text-align: right;
+    font-size: .75rem;
+    margin-top: 3px;
+    color: var(--text-light);
+    transition: color .2s;
+}
+
+/* Password Strength Meter */
+.password-strength { margin-top: 6px; }
+
+.strength-bar {
+    height: 4px;
+    background: var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.strength-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width .3s, background .3s;
+    width: 0;
+}
+
+.strength-fill.strength-weak { background: #e17055; }
+.strength-fill.strength-fair { background: #fdcb6e; }
+.strength-fill.strength-good { background: #00b894; }
+.strength-fill.strength-strong { background: #00b894; }
+
+.strength-text { font-size: .78rem; margin-top: 3px; display: block; }
+.strength-text.strength-weak { color: #e17055; }
+.strength-text.strength-fair { color: #e67e22; }
+.strength-text.strength-good { color: #00b894; }
+.strength-text.strength-strong { color: #00b894; font-weight: 600; }
