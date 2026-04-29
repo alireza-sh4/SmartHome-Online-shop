@@ -47,13 +47,3 @@ If you want to run this project locally, follow these steps:
 
 5. **Start Shopping!**
    Navigate to `http://localhost/WebProject/` to view the shop!
-
-## Admin Access
-
-If you used the `install.php` script to set up your database, an admin account was created for you by default:
-* **Email:** admin@smarthome.test (or simply use the username `admin` to login)
-* **Password:** Admin123
-
-## License
-
-This project is open-source and available under the MIT License. Feel free to fork it, modify it, or use it for your own university submissions!
