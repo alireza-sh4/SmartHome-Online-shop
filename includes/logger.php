@@ -1,13 +1,5 @@
 <?php
 
-/**
- * logAction() - Records a user action
- * 
- * @param PDO    $pdo     - Database connection object
- * @param int    $userId  - ID of the user performing the action
- * @param string $action  - Action type (e.g., 'LOGIN', 'ORDER_PLACED', 'LOGOUT')
- * @param string $details - Additional info (e.g., 'Order #5 placed, total: €149.99')
- */
 function logAction($pdo, $userId, $action, $details = '') {
     $timestamp = date('Y-m-d H:i:s');
     $logDir = __DIR__ . '/../logs';
